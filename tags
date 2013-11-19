@@ -1,0 +1,570 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	libshorttext/classifier/learner/liblinear/blas/Makefile	/^AR     = ar rcv$/;"	m
+Analyzer	libshorttext/analyzer/analyzer_impl.py	/^class Analyzer:$/;"	c
+B	libshorttext/classifier/learner/liblinear/linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+BLAS_INCLUDE	libshorttext/classifier/learner/liblinear/blas/blas.h	9;"	d
+C	libshorttext/classifier/learner/liblinear/linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+C	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *C;$/;"	m	class:l2r_l2_svc_fun	file:
+C	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *C;$/;"	m	class:l2r_lr_fun	file:
+C	libshorttext/classifier/learner/liblinear/linear.h	/^	double C;$/;"	m	struct:parameter
+CC	libshorttext/classifier/learner/liblinear/Makefile	/^CC ?= gcc$/;"	m
+CC	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^CC ?= gcc$/;"	m
+CFLAGS	libshorttext/classifier/learner/liblinear/Makefile	/^CFLAGS = -Wall -Wconversion -O3 -fPIC$/;"	m
+CFLAGS	libshorttext/classifier/learner/liblinear/blas/Makefile	/^CFLAGS = $(OPTFLAGS) $/;"	m
+CFLAGS	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^CFLAGS = -Wall -Wconversion -O3 -fPIC -I$(MATLABDIR)\/extern\/include -I..$/;"	m
+CMD_LEN	libshorttext/classifier/learner/liblinear/matlab/predict.c	15;"	d	file:
+CMD_LEN	libshorttext/classifier/learner/liblinear/matlab/train.c	17;"	d	file:
+CXX	libshorttext/classifier/learner/liblinear/Makefile	/^CXX ?= g++$/;"	m
+CXX	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^CXX ?= g++$/;"	m
+ClassMapping	libshorttext/converter/converter_impl.py	/^class ClassMapping(object):$/;"	c
+D	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *D;$/;"	m	class:l2r_l2_svc_fun	file:
+D	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *D;$/;"	m	class:l2r_lr_fun	file:
+FALSE	libshorttext/classifier/learner/liblinear/blas/blas.h	23;"	d
+FALSE	libshorttext/converter/stemmer/porter.c	50;"	d	file:
+FFLAGS	libshorttext/classifier/learner/liblinear/blas/Makefile	/^FFLAGS = $(OPTFLAGS)$/;"	m
+FILES	libshorttext/classifier/learner/liblinear/blas/Makefile	/^FILES = dnrm2.o daxpy.o ddot.o dscal.o $/;"	m
+FeatureGenerator	libshorttext/converter/converter_impl.py	/^class FeatureGenerator(object):$/;"	c
+G	libshorttext/classifier/learner/liblinear/linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1220;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1221;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1394;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1395;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1681;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	1682;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	453;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	774;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	775;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	993;"	d	file:
+GETI	libshorttext/classifier/learner/liblinear/linear.cpp	994;"	d	file:
+GridOption	libshorttext/classifier/grid.py	/^class GridOption:$/;"	c
+HEADERS	libshorttext/classifier/learner/liblinear/blas/Makefile	/^HEADERS = blas.h blasp.h$/;"	m
+Hv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svc_fun::Hv(double *s, double *Hs)$/;"	f	class:l2r_l2_svc_fun
+Hv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_lr_fun::Hv(double *s, double *Hs)$/;"	f	class:l2r_lr_fun
+I	libshorttext/classifier/learner/liblinear/linear.cpp	/^	INT64 *I;$/;"	m	class:l2r_l2_svc_fun	file:
+INC	libshorttext/converter/stemmer/porter.c	392;"	d	file:
+INF	libshorttext/classifier/learner/liblinear/linear.cpp	23;"	d	file:
+INF	libshorttext/classifier/learner/liblinear/matlab/train.c	19;"	d	file:
+INF	libshorttext/classifier/learner/liblinear/train.c	9;"	d	file:
+INT64	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef int64_t INT64;$/;"	t
+INT64	libshorttext/classifier/learner/liblinear/blas/blasp.h	/^typedef int64_t INT64;$/;"	t
+INT64	libshorttext/classifier/learner/liblinear/linear.h	/^typedef int64_t INT64;$/;"	t
+INT64	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^typedef int64_t INT64;$/;"	t	file:
+INT64	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	/^typedef int64_t INT64;$/;"	t	file:
+INT64	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.h	/^typedef int64_t INT64;$/;"	t
+INT64	libshorttext/classifier/learner/liblinear/tron.cpp	/^typedef int64_t INT64;$/;"	t	file:
+INT64	libshorttext/classifier/learner/liblinear/tron.h	/^typedef int64_t INT64;$/;"	t
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/blas/blas.h	14;"	d
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/blas/blasp.h	8;"	d
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/linear.h	7;"	d
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	12;"	d	file:
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	9;"	d	file:
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.h	4;"	d
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/tron.cpp	8;"	d	file:
+INT64_DEFINED	libshorttext/classifier/learner/liblinear/tron.h	4;"	d
+InstanceSet	libshorttext/analyzer/analyzer_impl.py	/^class InstanceSet:$/;"	c
+L1R_L2LOSS_SVC	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L1R_LR	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L1LOSS_SVC_DUAL	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L1LOSS_SVR_DUAL	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L2LOSS_SVC	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L2LOSS_SVC_DUAL	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L2LOSS_SVR	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_L2LOSS_SVR_DUAL	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_LR	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+L2R_LR_DUAL	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+LETTER	libshorttext/converter/stemmer/porter.c	395;"	d	file:
+LIBLINEAR_HOME	libshorttext/classifier/learner/learner_impl.py	/^LIBLINEAR_HOME = os.environ.get('LIBLINEAR_HOME') or os.path.dirname(os.path.abspath(__file__)) + '\/liblinear'$/;"	v
+LIBS	libshorttext/classifier/learner/liblinear/Makefile	/^LIBS = blas\/blas.a$/;"	m
+LearnerModel	libshorttext/classifier/learner/learner_impl.py	/^class LearnerModel(liblinear.model):$/;"	c
+LearnerParameter	libshorttext/classifier/learner/learner_impl.py	/^class LearnerParameter(liblinear.parameter):$/;"	c
+LearnerProblem	libshorttext/classifier/learner/learner_impl.py	/^class LearnerProblem(liblinear.problem):$/;"	c
+LocalWorker	libshorttext/classifier/grid.py	/^class LocalWorker(Worker):$/;"	c
+MATLABDIR	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^MATLABDIR ?= \/usr\/local\/matlab$/;"	m
+MAX	libshorttext/classifier/learner/liblinear/blas/blas.h	28;"	d
+MCSVM_CS	libshorttext/classifier/learner/liblinear/linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon2
+MEX	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^MEX = $(MATLABDIR)\/bin\/mex$/;"	m
+MEX_EXT	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^MEX_EXT = $(shell $(MATLABDIR)\/bin\/mexext)$/;"	m
+MEX_OPTION	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^MEX_OPTION = CC\\#$(CXX) CXX\\#$(CXX) CFLAGS\\#"$(CFLAGS)" CXXFLAGS\\#"$(CFLAGS)"$/;"	m
+MIN	libshorttext/classifier/learner/liblinear/blas/blas.h	27;"	d
+Malloc	libshorttext/classifier/learner/liblinear/linear.cpp	22;"	d	file:
+Malloc	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	13;"	d	file:
+Malloc	libshorttext/classifier/learner/liblinear/matlab/predict.c	17;"	d	file:
+Malloc	libshorttext/classifier/learner/liblinear/matlab/train.c	18;"	d	file:
+Malloc	libshorttext/classifier/learner/liblinear/train.c	8;"	d	file:
+Malloc	libshorttext/classifier/learner/util.c	8;"	d	file:
+NUM_OF_RETURN_FIELD	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	15;"	d	file:
+OCTAVEDIR	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^OCTAVEDIR ?= \/usr\/include\/octave$/;"	m
+OCTAVE_CFLAGS	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^OCTAVE_CFLAGS = -Wall -O3 -fPIC -I$(OCTAVEDIR) -I..$/;"	m
+OCTAVE_MEX	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^OCTAVE_MEX = env CC=$(CXX) mkoctfile$/;"	m
+OCTAVE_MEX_EXT	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^OCTAVE_MEX_EXT = mex$/;"	m
+OCTAVE_MEX_OPTION	libshorttext/classifier/learner/liblinear/matlab/Makefile	/^OCTAVE_MEX_OPTION = --mex$/;"	m
+OS	libshorttext/classifier/learner/Makefile	/^OS = $(shell uname)$/;"	m
+OS	libshorttext/classifier/learner/liblinear/Makefile	/^OS = $(shell uname)$/;"	m
+OS	libshorttext/converter/stemmer/Makefile	/^OS = $(shell uname)$/;"	m
+PRINT_STRING_FUN	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^PRINT_STRING_FUN = CFUNCTYPE(None, c_char_p)$/;"	v
+PredictionResult	libshorttext/classifier/classifier_impl.py	/^class PredictionResult(object):$/;"	c
+RANLIB	libshorttext/classifier/learner/liblinear/blas/Makefile	/^RANLIB = ranlib $/;"	m
+SHVER	libshorttext/classifier/learner/Makefile	/^SHVER = 1$/;"	m
+SHVER	libshorttext/classifier/learner/liblinear/Makefile	/^SHVER = 1$/;"	m
+SOLVER_TYPE	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^		'L2R_L2LOSS_SVR', 'L2R_L2LOSS_SVR_DUAL', 'L2R_L1LOSS_SVR_DUAL']$/;"	v
+SSHWorker	libshorttext/classifier/grid.py	/^class SSHWorker(Worker):$/;"	c
+SVMProblem	libshorttext/classifier/learner/learner_impl.py	/^class SVMProblem(Structure):$/;"	c
+SVMProblem	libshorttext/classifier/learner/util.c	/^} SVMProblem;$/;"	t	typeref:struct:__anon1	file:
+Solve	libshorttext/classifier/learner/liblinear/linear.cpp	/^void Solver_MCSVM_CS::Solve(double *w)$/;"	f	class:Solver_MCSVM_CS
+Solver_MCSVM_CS	libshorttext/classifier/learner/liblinear/linear.cpp	/^Solver_MCSVM_CS::Solver_MCSVM_CS(const problem *prob, INT64 nr_class, double *weighted_C, double eps, INT64 max_iter)$/;"	f	class:Solver_MCSVM_CS
+Solver_MCSVM_CS	libshorttext/classifier/learner/liblinear/linear.cpp	/^class Solver_MCSVM_CS$/;"	c	file:
+TARGET	libshorttext/classifier/learner/Makefile	/^TARGET = util$/;"	m
+TRON	libshorttext/classifier/learner/liblinear/tron.cpp	/^TRON::TRON(const function *fun_obj, double eps, INT64 max_iter)$/;"	f	class:TRON
+TRON	libshorttext/classifier/learner/liblinear/tron.h	/^class TRON$/;"	c
+TRUE	libshorttext/classifier/learner/liblinear/blas/blas.h	24;"	d
+TRUE	libshorttext/converter/stemmer/porter.c	49;"	d	file:
+TelnetWorker	libshorttext/classifier/grid.py	/^class TelnetWorker(Worker):$/;"	c
+Text2svmConverter	libshorttext/converter/converter_impl.py	/^class Text2svmConverter(object):$/;"	c
+TextInstance	libshorttext/analyzer/analyzer_impl.py	/^class TextInstance:$/;"	c
+TextModel	libshorttext/classifier/classifier_impl.py	/^class TextModel(object):$/;"	c
+TextPreprocessor	libshorttext/converter/converter_impl.py	/^class TextPreprocessor(object):$/;"	c
+VERSION	libshorttext/classifier/classifier_impl.py	/^VERSION = 0$/;"	v
+Worker	libshorttext/classifier/grid.py	/^class Worker(Thread):$/;"	c
+WorkerStopToken	libshorttext/classifier/grid.py	/^class WorkerStopToken:  # used to notify the worker to stop or if a worker is dead$/;"	c
+XTv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_lr_fun::XTv(double *v, double *XTv)$/;"	f	class:l2r_lr_fun
+Xv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svc_fun::Xv(double *v, double *Xv)$/;"	f	class:l2r_l2_svc_fun
+Xv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_lr_fun::Xv(double *v, double *Xv)$/;"	f	class:l2r_lr_fun
+_LIBLINEAR_H	libshorttext/classifier/learner/liblinear/linear.h	4;"	d
+_TRON_H	libshorttext/classifier/learner/liblinear/tron.h	8;"	d
+_VERSION	libshorttext/classifier/classifier_impl.py	/^	_VERSION = 1$/;"	v	class:PredictionResult
+__all__	libshorttext/analyzer/analyzer_impl.py	/^__all__ = ['TextInstance', 'InstanceSet', 'Analyzer']$/;"	v
+__all__	libshorttext/analyzer/selector.py	/^__all__ = ['wrong', 'with_labels', 'sort_by_dec', 'subset', 'selectorize', 'reverse']$/;"	v
+__all__	libshorttext/classifier/classifier_impl.py	/^		'predict_text', 'predict_single_text', 'PredictionResult', 'TextModel', 'LIBLINEAR_HOME']$/;"	v
+__all__	libshorttext/classifier/grid.py	/^__all__ = ['find_parameters']$/;"	v
+__all__	libshorttext/classifier/learner/learner_impl.py	/^__all__ = ['LearnerParameter', 'LearnerModel', $/;"	v
+__all__	libshorttext/converter/converter_impl.py	/^__all__ = ["TextPreprocessor", "FeatureGenerator", "ClassMapping", "Text2svmConverter", "convert_text"]$/;"	v
+__del__	libshorttext/classifier/learner/learner_impl.py	/^	def __del__ (self):$/;"	m	class:SVMProblem	file:
+__del__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __del__(self):$/;"	m	class:model	file:
+__getitem__	libshorttext/analyzer/analyzer_impl.py	/^	def __getitem__(self, idx):$/;"	m	class:InstanceSet	file:
+__init__	libshorttext/analyzer/analyzer_impl.py	/^	def __init__(self, idx, true_y = '', predicted_y = '', text = '', extra_svm_feats = [], decvals = None):$/;"	m	class:TextInstance
+__init__	libshorttext/analyzer/analyzer_impl.py	/^	def __init__(self, model = None):$/;"	m	class:Analyzer
+__init__	libshorttext/analyzer/analyzer_impl.py	/^	def __init__(self, rst_src = None, text_src = None):$/;"	m	class:InstanceSet
+__init__	libshorttext/classifier/classifier_impl.py	/^	def __init__(self, arg1 = None, arg2 = None):$/;"	m	class:TextModel
+__init__	libshorttext/classifier/classifier_impl.py	/^	def __init__(self, text_src = None, model_id = None, true_y = None, predicted_y = None, decvals = None, svm_file = None, labels = None, extra_svm_files = []):$/;"	m	class:PredictionResult
+__init__	libshorttext/classifier/grid.py	/^	def __init__(self, dataset_pathname, options):$/;"	m	class:GridOption
+__init__	libshorttext/classifier/grid.py	/^	def __init__(self,name,job_queue,result_queue,host,options):$/;"	m	class:SSHWorker
+__init__	libshorttext/classifier/grid.py	/^	def __init__(self,name,job_queue,result_queue,host,username,password,options):$/;"	m	class:TelnetWorker
+__init__	libshorttext/classifier/grid.py	/^	def __init__(self,name,job_queue,result_queue,options):$/;"	m	class:Worker
+__init__	libshorttext/classifier/learner/learner_impl.py	/^	def __init__(self, c_model, param = None, idf = None):$/;"	m	class:LearnerModel
+__init__	libshorttext/classifier/learner/learner_impl.py	/^	def __init__(self, learner_opts = '', liblinear_opts = ''):$/;"	m	class:LearnerParameter
+__init__	libshorttext/classifier/learner/learner_impl.py	/^	def __init__(self, src):$/;"	m	class:LearnerProblem
+__init__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __init__(self):$/;"	m	class:model
+__init__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __init__(self, options = None):$/;"	m	class:parameter
+__init__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __init__(self, y, x, bias = -1):$/;"	m	class:problem
+__init__	libshorttext/converter/converter_impl.py	/^	def __init__(self, option="", readonly=False):$/;"	m	class:Text2svmConverter
+__init__	libshorttext/converter/converter_impl.py	/^	def __init__(self, option='', readonly=False):$/;"	m	class:ClassMapping
+__init__	libshorttext/converter/converter_impl.py	/^	def __init__(self, option='-feature 1', readonly=False):$/;"	m	class:FeatureGenerator
+__init__	libshorttext/converter/converter_impl.py	/^	def __init__(self, option='-stemming 0 -stopword 0', readonly=False):$/;"	m	class:TextPreprocessor
+__iter__	libshorttext/analyzer/analyzer_impl.py	/^	def __iter__(self):$/;"	m	class:InstanceSet	file:
+__str__	libshorttext/analyzer/analyzer_impl.py	/^	def __str__(self):$/;"	m	class:TextInstance	file:
+__str__	libshorttext/classifier/classifier_impl.py	/^	def __str__(self):$/;"	m	class:PredictionResult	file:
+__str__	libshorttext/classifier/classifier_impl.py	/^	def __str__(self):$/;"	m	class:TextModel	file:
+__str__	libshorttext/classifier/learner/learner_impl.py	/^	def __str__(self):$/;"	m	class:LearnerModel	file:
+__str__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __str__(self):$/;"	m	class:feature_node	file:
+__str__	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def __str__(self):$/;"	m	class:parameter	file:
+__str__	libshorttext/converter/converter_impl.py	/^	def __str__(self):$/;"	m	class:Text2svmConverter	file:
+_calculate_info	libshorttext/analyzer/analyzer_impl.py	/^	def _calculate_info(self, pred_insts):$/;"	m	class:Analyzer
+_dict2list	libshorttext/converter/converter_impl.py	/^def _dict2list(d):$/;"	f
+_fields_	libshorttext/classifier/learner/learner_impl.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:SVMProblem
+_fields_	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:feature_node
+_fields_	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:model
+_fields_	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:parameter
+_fields_	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:problem
+_get_label_idx	libshorttext/classifier/learner/learner_impl.py	/^		def _get_label_idx(nr_class, labels):$/;"	f	function:LearnerModel._reconstruct_label_idx
+_iterdict	libshorttext/converter/converter_impl.py	/^def _iterdict(d):$/;"	f
+_list2dict	libshorttext/converter/converter_impl.py	/^def _list2dict(l):$/;"	f
+_load	libshorttext/analyzer/analyzer_impl.py	/^	def _load(self, src, text_src):$/;"	m	class:InstanceSet
+_merge_files	libshorttext/converter/converter_impl.py	/^def _merge_files(svm_files, offsets, is_training, output):	$/;"	f
+_names	libshorttext/classifier/learner/learner_impl.py	/^	_names = ["prob", "x_space", "n_x_space"]$/;"	v	class:SVMProblem
+_names	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_names = ["index", "value"]$/;"	v	class:feature_node
+_names	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_names = ["l", "n", "y", "x", "bias"]$/;"	v	class:problem
+_names	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_names = ["param", "nr_class", "nr_feature", "w", "label", "bias"]$/;"	v	class:model
+_names	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_names = ["solver_type", "eps", "C", "nr_weight", "weight_label", "weight", "p"]$/;"	v	class:parameter
+_parse_option	libshorttext/converter/converter_impl.py	/^	def _parse_option(self, option):$/;"	m	class:Text2svmConverter
+_reconstruct_label_idx	libshorttext/classifier/learner/learner_impl.py	/^	def _reconstruct_label_idx(self):$/;"	m	class:LearnerModel
+_types	libshorttext/classifier/learner/learner_impl.py	/^	_types = [liblinear.problem, POINTER(liblinear.feature_node), c_int64]$/;"	v	class:SVMProblem
+_types	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_types = [c_int64, c_double, c_double, c_int64, POINTER(c_int64), POINTER(c_double), c_double]$/;"	v	class:parameter
+_types	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_types = [c_int64, c_double]$/;"	v	class:feature_node
+_types	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_types = [c_int64, c_int64, POINTER(c_double), POINTER(POINTER(feature_node)), c_double]$/;"	v	class:problem
+_types	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	_types = [parameter, c_int64, c_int64, POINTER(c_double), POINTER(c_int64), c_double]$/;"	v	class:model
+all	libshorttext/classifier/learner/Makefile	/^all = lib$/;"	m
+all	libshorttext/classifier/learner/liblinear/python/Makefile	/^all = lib$/;"	m
+all	libshorttext/converter/stemmer/Makefile	/^all = lib$/;"	m
+analyzable	libshorttext/classifier/classifier_impl.py	/^	def analyzable(self):$/;"	m	class:PredictionResult
+analyze_single	libshorttext/analyzer/analyzer_impl.py	/^	def analyze_single(self, target, amount = 5, output = None, extra_svm_feats = []):$/;"	m	class:Analyzer
+analyzer	demo/demo.py	/^    analyzer = Analyzer('train_file.model')$/;"	v
+argv	libshorttext/classifier/learner/learner_impl.py	/^	argv = sys.argv$/;"	v
+b	libshorttext/converter/stemmer/porter.c	/^   char * b;       \/* buffer for word to be stemmed *\/$/;"	m	struct:stemmer	file:
+be_shrunk	libshorttext/classifier/learner/liblinear/linear.cpp	/^bool Solver_MCSVM_CS::be_shrunk(INT64 i, INT64 m, INT64 yi, double alpha_i, double minG)$/;"	f	class:Solver_MCSVM_CS
+bias	libshorttext/classifier/learner/liblinear/linear.h	/^	double bias;            \/* < 0 if no bias term *\/  $/;"	m	struct:problem
+bias	libshorttext/classifier/learner/liblinear/linear.h	/^	double bias;$/;"	m	struct:model
+bias	libshorttext/classifier/learner/liblinear/matlab/train.c	/^double bias;$/;"	v
+bias	libshorttext/classifier/learner/liblinear/train.c	/^double bias;$/;"	v
+bigram	libshorttext/converter/converter_impl.py	/^	def bigram(self, text):$/;"	m	class:FeatureGenerator
+blasbool	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef INT64 blasbool;$/;"	t
+calculate_jobs	libshorttext/classifier/grid.py	/^def calculate_jobs(options):$/;"	f
+check_parameter	libshorttext/classifier/learner/liblinear/linear.cpp	/^const char *check_parameter(const problem *prob, const parameter *param)$/;"	f
+check_probability_model	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 check_probability_model(const struct model *model_)$/;"	f
+clone	libshorttext/classifier/learner/liblinear/linear.cpp	/^template <class S, class T> static inline void clone(T*& dst, S* src, INT64 n)$/;"	f	file:
+col_format_flag	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^INT64 col_format_flag;$/;"	v
+col_format_flag	libshorttext/classifier/learner/liblinear/matlab/train.c	/^INT64 col_format_flag;$/;"	v
+compare_double	libshorttext/classifier/learner/liblinear/linear.cpp	/^int compare_double(const void *a, const void *b)$/;"	f
+compute_idf	libshorttext/classifier/learner/learner_impl.py	/^	def compute_idf(self):$/;"	m	class:LearnerProblem
+compute_idf	libshorttext/classifier/learner/util.c	/^double* compute_idf(const struct problem *prob, double *idf_val)$/;"	f
+cons	libshorttext/converter/stemmer/porter.c	/^static int cons(struct stemmer * z, int i)$/;"	f	file:
+convert_text	libshorttext/converter/converter_impl.py	/^def convert_text(text_src, converter, output=''):$/;"	f
+create_stemmer	libshorttext/converter/stemmer/porter.c	/^extern struct stemmer * create_stemmer(void)$/;"	f
+cross_validation	libshorttext/classifier/learner/liblinear/linear.cpp	/^void cross_validation(const problem *prob, const parameter *param, INT64 nr_fold, double *target)$/;"	f
+cross_validation_flag	libshorttext/classifier/learner/liblinear/matlab/train.c	/^INT64 cross_validation_flag;$/;"	v
+cvc	libshorttext/converter/stemmer/porter.c	/^static int cvc(struct stemmer * z, int i)$/;"	f	file:
+data_file_name	libshorttext/classifier/learner/learner_impl.py	/^	data_file_name = argv[-1]$/;"	v
+dataset_pathname	libshorttext/classifier/grid.py	/^	dataset_pathname = sys.argv[-1]$/;"	v
+daxpy_	libshorttext/classifier/learner/liblinear/blas/daxpy.c	/^INT64 daxpy_(INT64 *n, double *sa, double *sx, INT64 *incx, double *sy,$/;"	f
+dcomplex	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	t	typeref:struct:__anon4
+ddot_	libshorttext/classifier/learner/liblinear/blas/ddot.c	/^double ddot_(INT64 *n, double *sx, INT64 *incx, double *sy, INT64 *incy)$/;"	f
+default_print	libshorttext/classifier/learner/liblinear/tron.cpp	/^static void default_print(const char *buf)$/;"	f	file:
+default_stoplist	libshorttext/converter/converter_impl.py	/^	def default_stoplist():$/;"	m	class:TextPreprocessor
+default_tokenizer	libshorttext/converter/converter_impl.py	/^	def default_tokenizer(text):$/;"	m	class:TextPreprocessor
+destroy_param	libshorttext/classifier/learner/liblinear/linear.cpp	/^void destroy_param(parameter* param)$/;"	f
+dnrm2_	libshorttext/classifier/learner/liblinear/blas/dnrm2.c	/^double dnrm2_(INT64 *n, double *x, INT64 *incx)$/;"	f
+do_cross_validation	libshorttext/classifier/learner/liblinear/matlab/train.c	/^double do_cross_validation()$/;"	f
+do_cross_validation	libshorttext/classifier/learner/liblinear/train.c	/^void do_cross_validation()$/;"	f
+do_predict	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^void do_predict(mxArray *plhs[], const mxArray *prhs[], struct model *model_, const INT64 predict_probability_flag)$/;"	f
+do_predict	libshorttext/classifier/learner/liblinear/predict.c	/^void do_predict(FILE *input, FILE *output)$/;"	f
+doublec	libshorttext/converter/stemmer/porter.c	/^static int doublec(struct stemmer * z, int j)$/;"	f	file:
+draw_table	libshorttext/analyzer/analyzer_impl.py	/^def draw_table(rows, columns, table, output = None):$/;"	f
+dscal_	libshorttext/classifier/learner/liblinear/blas/dscal.c	/^INT64 dscal_(INT64 *n, double *sa, double *sx, INT64 *incx)$/;"	f
+ends	libshorttext/converter/stemmer/porter.c	/^static int ends(struct stemmer * z, char * s)$/;"	f	file:
+eps	libshorttext/classifier/learner/liblinear/linear.cpp	/^		double eps;$/;"	m	class:Solver_MCSVM_CS	file:
+eps	libshorttext/classifier/learner/liblinear/linear.h	/^	double eps;	        \/* stopping criteria *\/$/;"	m	struct:parameter
+eps	libshorttext/classifier/learner/liblinear/tron.h	/^	double eps;$/;"	m	class:TRON
+evaluations	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def evaluations(ty, pv):$/;"	f
+exit_input_error	libshorttext/classifier/learner/liblinear/predict.c	/^void exit_input_error(INT64 line_num)$/;"	f
+exit_input_error	libshorttext/classifier/learner/liblinear/train.c	/^void exit_input_error(INT64 line_num)$/;"	f
+exit_with_help	libshorttext/classifier/grid.py	/^	def exit_with_help():$/;"	f	function:find_parameters
+exit_with_help	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^void exit_with_help()$/;"	f
+exit_with_help	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	/^void exit_with_help()$/;"	f
+exit_with_help	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^void exit_with_help()$/;"	f
+exit_with_help	libshorttext/classifier/learner/liblinear/matlab/train.c	/^void exit_with_help()$/;"	f
+exit_with_help	libshorttext/classifier/learner/liblinear/predict.c	/^void exit_with_help()$/;"	f
+exit_with_help	libshorttext/classifier/learner/liblinear/train.c	/^void exit_with_help()$/;"	f
+exit_with_help	text-predict.py	/^def exit_with_help():$/;"	f
+exit_with_help	text-train.py	/^def exit_with_help():$/;"	f
+exit_with_help	text2svm.py	/^def exit_with_help():$/;"	f
+fake_answer	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^static void fake_answer(mxArray *plhs[])$/;"	f	file:
+fake_answer	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^static void fake_answer(mxArray *plhs[])$/;"	f	file:
+fake_answer	libshorttext/classifier/learner/liblinear/matlab/train.c	/^static void fake_answer(mxArray *plhs[])$/;"	f	file:
+fcomplex	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	t	typeref:struct:__anon3
+feature_node	libshorttext/classifier/learner/liblinear/linear.h	/^struct feature_node$/;"	s
+feature_node	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^class feature_node(Structure):$/;"	c
+field_names	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	/^static const char *field_names[] = {$/;"	v	file:
+fillprototype	libshorttext/classifier/learner/learner_impl.py	/^def fillprototype(f, restype, argtypes): $/;"	f
+fillprototype	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^def fillprototype(f, restype, argtypes): $/;"	f
+fillprototype	libshorttext/converter/stemmer/porter.py	/^def fillprototype(f, restype, argtypes): $/;"	f
+find_parameters	libshorttext/classifier/grid.py	/^def find_parameters(dataset_pathname, options=''):$/;"	f
+flag_cross_validation	libshorttext/classifier/learner/liblinear/train.c	/^INT64 flag_cross_validation;$/;"	v
+flag_predict_probability	libshorttext/classifier/learner/liblinear/predict.c	/^INT64 flag_predict_probability=0;$/;"	v
+foo	libshorttext/converter/converter_impl.py	/^		def foo(c):$/;"	f	function:TextPreprocessor.default_tokenizer
+freeSVMProblem	libshorttext/classifier/learner/util.c	/^void freeSVMProblem(SVMProblem svmprob) {$/;"	f
+free_and_destroy_model	libshorttext/classifier/learner/liblinear/linear.cpp	/^void free_and_destroy_model(struct model **model_ptr_ptr)$/;"	f
+free_model_content	libshorttext/classifier/learner/liblinear/linear.cpp	/^void free_model_content(struct model *model_ptr)$/;"	f
+free_stemmer	libshorttext/converter/stemmer/porter.c	/^extern void free_stemmer(struct stemmer * z)$/;"	f
+fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^double l2r_l2_svc_fun::fun(double *w)$/;"	f	class:l2r_l2_svc_fun
+fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^double l2r_l2_svr_fun::fun(double *w)$/;"	f	class:l2r_l2_svr_fun
+fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^double l2r_lr_fun::fun(double *w)$/;"	f	class:l2r_lr_fun
+fun_obj	libshorttext/classifier/learner/liblinear/tron.h	/^	function *fun_obj;$/;"	m	class:TRON
+function	libshorttext/classifier/learner/liblinear/tron.h	/^class function$/;"	c
+genFields	libshorttext/classifier/learner/learner_impl.py	/^def genFields(names, types): $/;"	f
+genFields	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^def genFields(names, types): $/;"	f
+gen_confusion_table	libshorttext/analyzer/analyzer_impl.py	/^	def gen_confusion_table(self, pred_insts, output = None):$/;"	m	class:Analyzer
+gen_feature_nodearray	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^def gen_feature_nodearray(xi, feature_max=None, issparse=True):$/;"	f
+getClassIdx	libshorttext/converter/converter_impl.py	/^	def getClassIdx(self, class_name):$/;"	m	class:Text2svmConverter
+getClassName	libshorttext/converter/converter_impl.py	/^	def getClassName(self, class_idx):$/;"	m	class:Text2svmConverter
+get_accuracy	libshorttext/classifier/classifier_impl.py	/^	def get_accuracy(self):$/;"	m	class:PredictionResult
+get_cmd	libshorttext/classifier/grid.py	/^	def get_cmd(self,c,g):$/;"	m	class:Worker
+get_fidx2ngram	libshorttext/converter/converter_impl.py	/^	def get_fidx2ngram(self, fidx):$/;"	m	class:FeatureGenerator
+get_fidx2tok	libshorttext/converter/converter_impl.py	/^	def get_fidx2tok(self, fidx):$/;"	m	class:Text2svmConverter
+get_idx2tok	libshorttext/converter/converter_impl.py	/^	def get_idx2tok(self, idx):$/;"	m	class:TextPreprocessor
+get_labels	libshorttext/classifier/classifier_impl.py	/^	def get_labels(self):$/;"	m	class:TextModel
+get_labels	libshorttext/classifier/learner/learner_impl.py	/^	def get_labels(self):$/;"	m	class:LearnerModel
+get_labels	libshorttext/classifier/learner/liblinear/linear.cpp	/^void get_labels(const model *model_, INT64* label)$/;"	f
+get_labels	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def get_labels(self):$/;"	m	class:model
+get_nr_class	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 get_nr_class(const model *model_)$/;"	f
+get_nr_class	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def get_nr_class(self):$/;"	m	class:model
+get_nr_feature	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 get_nr_feature(const model *model_)$/;"	f
+get_nr_feature	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def get_nr_feature(self):$/;"	m	class:model
+get_nr_variable	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 l2r_l2_svc_fun::get_nr_variable(void)$/;"	f	class:l2r_l2_svc_fun
+get_nr_variable	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 l2r_lr_fun::get_nr_variable(void)$/;"	f	class:l2r_lr_fun
+get_weight	libshorttext/classifier/classifier_impl.py	/^	def get_weight(self, xi, labels = None, extra_svm_feats = []):$/;"	m	class:TextModel
+get_weight	libshorttext/classifier/learner/learner_impl.py	/^	def get_weight(self, j, k):$/;"	m	class:LearnerModel
+grad	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svc_fun::grad(double *w, double *g)$/;"	f	class:l2r_l2_svc_fun
+grad	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svr_fun::grad(double *w, double *g)$/;"	f	class:l2r_l2_svr_fun
+grad	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_lr_fun::grad(double *w, double *g)$/;"	f	class:l2r_lr_fun
+group_classes	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void group_classes(const problem *prob, INT64 *nr_class_ret, INT64 **label_ret, INT64 **start_ret, INT64 **count_ret, INT64 *perm)$/;"	f	file:
+i	libshorttext/classifier/learner/learner_impl.py	/^	i = 1 $/;"	v
+i	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	m	struct:__anon4
+i	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	m	struct:__anon3
+i_max	libshorttext/converter/stemmer/porter.c	/^static int i_max = INC;  \/* maximum offset in s *\/$/;"	v	file:
+index	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 index;$/;"	m	struct:feature_node
+info	libshorttext/analyzer/analyzer_impl.py	/^	def info(self, pred_insts, output = None):$/;"	m	class:Analyzer
+info	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void info(const char *fmt,...) {}$/;"	f	file:
+info	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void info(const char *fmt,...)$/;"	f	file:
+info	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^int (*info)(const char *fmt,...);$/;"	v
+info	libshorttext/classifier/learner/liblinear/predict.c	/^static int (*info)(const char *fmt,...) = &printf;$/;"	v	file:
+info	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^	def info(s):$/;"	f	function:predict
+info	libshorttext/classifier/learner/liblinear/tron.cpp	/^void TRON::info(const char *fmt,...)$/;"	f	class:TRON
+inner_func	libshorttext/analyzer/selector.py	/^	def inner_func(input_func):$/;"	f	function:selectorize
+inner_func	libshorttext/analyzer/selector.py	/^	def inner_func(inst):$/;"	f	function:with_labels
+inner_func	libshorttext/analyzer/selector.py	/^	def inner_func(insts):$/;"	f	function:subset
+inner_func2	libshorttext/analyzer/selector.py	/^			def inner_func2(insts):$/;"	f	function:selectorize.inner_func
+insts	demo/demo.py	/^    insts = predict_result.select(wrong, with_labels(['Books', 'Music', 'Art', 'Baby']), sort_by_dec, subset(100))$/;"	v
+is_probability_model	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def is_probability_model(self):$/;"	m	class:model
+izip	libshorttext/analyzer/analyzer_impl.py	/^	izip = zip$/;"	v
+izip	libshorttext/classifier/learner/learner_impl.py	/^	izip = zip$/;"	v
+izip	libshorttext/converter/converter_impl.py	/^	izip = zip$/;"	v
+j	libshorttext/converter/stemmer/porter.c	/^   int j;          \/* a general offset into the string *\/$/;"	m	struct:stemmer	file:
+k	libshorttext/converter/stemmer/porter.c	/^   int k;          \/* offset to the end of the string *\/$/;"	m	struct:stemmer	file:
+l	libshorttext/classifier/learner/liblinear/linear.cpp	/^		INT64 w_size, l;$/;"	m	class:Solver_MCSVM_CS	file:
+l	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 l, n;$/;"	m	struct:problem
+l2r_l2_svc_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^class l2r_l2_svc_fun: public function$/;"	c	file:
+l2r_l2_svc_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^l2r_l2_svc_fun::l2r_l2_svc_fun(const problem *prob, double *C)$/;"	f	class:l2r_l2_svc_fun
+l2r_l2_svr_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^class l2r_l2_svr_fun: public l2r_l2_svc_fun$/;"	c	file:
+l2r_l2_svr_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^l2r_l2_svr_fun::l2r_l2_svr_fun(const problem *prob, double *C, double p):$/;"	f	class:l2r_l2_svr_fun
+l2r_lr_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^class l2r_lr_fun: public function$/;"	c	file:
+l2r_lr_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^l2r_lr_fun::l2r_lr_fun(const problem *prob, double *C)$/;"	f	class:l2r_lr_fun
+label	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 *label;		\/* label of each class *\/$/;"	m	struct:model
+len_x_space	libshorttext/classifier/learner/util.c	/^	INT64 len_x_space;$/;"	m	struct:__anon1	file:
+liblinear	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^liblinear = CDLL(path.join(path.dirname(path.abspath(__file__)), '..\/liblinear.so.1'))$/;"	v
+liblinear_print_string	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void (*liblinear_print_string) (const char *) = &print_string_stdout;$/;"	v	file:
+libsvmwrite	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	/^void libsvmwrite(const char *filename, const mxArray *label_vec, const mxArray *instance_mat)$/;"	f
+line	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^static char *line;$/;"	v	file:
+line	libshorttext/classifier/learner/liblinear/predict.c	/^static char *line = NULL;$/;"	v	file:
+line	libshorttext/classifier/learner/liblinear/train.c	/^static char *line = NULL;$/;"	v	file:
+line	libshorttext/classifier/learner/util.c	/^static char *line = NULL;$/;"	v	file:
+load	libshorttext/classifier/classifier_impl.py	/^	def load(self, file_name):$/;"	m	class:PredictionResult
+load	libshorttext/classifier/classifier_impl.py	/^	def load(self, model_name):$/;"	m	class:TextModel
+load	libshorttext/classifier/learner/learner_impl.py	/^	def load(self, model_dir):$/;"	m	class:LearnerModel
+load	libshorttext/converter/converter_impl.py	/^	def load(self, src_dir, readonly=True):$/;"	m	class:Text2svmConverter
+load	libshorttext/converter/converter_impl.py	/^	def load(self, src_file, readonly=True):$/;"	m	class:ClassMapping
+load	libshorttext/converter/converter_impl.py	/^	def load(self, src_file, readonly=True):$/;"	m	class:FeatureGenerator
+load	libshorttext/converter/converter_impl.py	/^	def load(self, src_file, readonly=True):$/;"	m	class:TextPreprocessor
+load_model	libshorttext/analyzer/analyzer_impl.py	/^	def load_model(self, model):$/;"	m	class:Analyzer
+load_model	libshorttext/classifier/learner/liblinear/linear.cpp	/^struct model *load_model(const char *model_file_name)$/;"	f
+load_model	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def load_model(model_file_name):$/;"	f
+load_text	libshorttext/analyzer/analyzer_impl.py	/^	def load_text(self):$/;"	m	class:InstanceSet
+m	libshorttext/classifier/learner/learner_impl.py	/^	m = train(data_file_name, learner_opts, liblinear_opts)$/;"	v
+m	libshorttext/converter/stemmer/porter.c	/^static int m(struct stemmer * z)$/;"	f	file:
+main	libshorttext/classifier/learner/liblinear/predict.c	/^int main(int argc, char **argv)$/;"	f
+main	libshorttext/classifier/learner/liblinear/train.c	/^int main(int argc, char **argv)$/;"	f
+main	libshorttext/classifier/learner/test.cpp	/^int main(int argc, const char* argv[]){$/;"	f
+matlab_matrix_to_model	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	/^const char *matlab_matrix_to_model(struct model *model_, const mxArray *matlab_struct)$/;"	f
+max	libshorttext/classifier/learner/liblinear/linear.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:
+max	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	20;"	d	file:
+max	libshorttext/classifier/learner/liblinear/tron.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:
+max_iter	libshorttext/classifier/learner/liblinear/linear.cpp	/^		INT64 max_iter;$/;"	m	class:Solver_MCSVM_CS	file:
+max_iter	libshorttext/classifier/learner/liblinear/tron.h	/^	INT64 max_iter;$/;"	m	class:TRON
+max_line_len	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^static INT64 max_line_len;$/;"	v	file:
+max_line_len	libshorttext/classifier/learner/liblinear/predict.c	/^static INT64 max_line_len;$/;"	v	file:
+max_line_len	libshorttext/classifier/learner/liblinear/train.c	/^static INT64 max_line_len;$/;"	v	file:
+max_line_len	libshorttext/classifier/learner/util.c	/^static INT64 max_line_len;$/;"	v	file:
+max_nr_attr	libshorttext/classifier/learner/liblinear/predict.c	/^INT64 max_nr_attr = 64;$/;"	v
+merge_problems	libshorttext/classifier/learner/util.c	/^void merge_problems(const char *srcs[], const int num_srcs, INT64* offsets, const char *output_filename, char training, INT64 *error_code) { $/;"	f
+merge_svm_files	libshorttext/converter/converter_impl.py	/^	def merge_svm_files(self, svm_file, extra_svm_files):$/;"	m	class:Text2svmConverter
+mexFunction	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f
+mexFunction	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f
+mexFunction	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f
+mexFunction	libshorttext/classifier/learner/liblinear/matlab/train.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f
+min	libshorttext/classifier/learner/liblinear/linear.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:
+min	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	23;"	d	file:
+min	libshorttext/classifier/learner/liblinear/tron.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:
+model	libshorttext/classifier/learner/liblinear/linear.h	/^struct model$/;"	s
+model	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^class model(Structure):$/;"	c
+model_	libshorttext/classifier/learner/liblinear/matlab/train.c	/^struct model *model_;$/;"	v	typeref:struct:model
+model_	libshorttext/classifier/learner/liblinear/predict.c	/^struct model* model_;$/;"	v	typeref:struct:model
+model_	libshorttext/classifier/learner/liblinear/train.c	/^struct model* model_;$/;"	v	typeref:struct:model
+model_to_matlab_structure	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	/^const char *model_to_matlab_structure(mxArray *plhs[], struct model *model_)$/;"	f
+mwIndex	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^typedef INT64 mwIndex;$/;"	t	file:
+mwIndex	libshorttext/classifier/learner/liblinear/matlab/libsvmwrite.c	/^typedef INT64 mwIndex;$/;"	t	file:
+mwIndex	libshorttext/classifier/learner/liblinear/matlab/linear_model_matlab.c	/^typedef INT64 mwIndex;$/;"	t	file:
+mwIndex	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^typedef INT64 mwIndex;$/;"	t	file:
+mwIndex	libshorttext/classifier/learner/liblinear/matlab/train.c	/^typedef INT64 mwIndex;$/;"	t	file:
+n	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 l, n;$/;"	m	struct:problem
+norm_inf	libshorttext/classifier/learner/liblinear/tron.cpp	/^double TRON::norm_inf(INT64 n, double *x)$/;"	f	class:TRON
+normalize	libshorttext/classifier/learner/learner_impl.py	/^	def normalize(self, learner_param, idf):$/;"	m	class:LearnerProblem
+normalize	libshorttext/classifier/learner/util.c	/^void normalize(struct problem *prob, int binary, int norm, int tf, int idf, double* idf_val)$/;"	f
+normalize_one	libshorttext/classifier/learner/learner_impl.py	/^	def normalize_one(xi, learner_param, idf):$/;"	m	class:LearnerProblem
+nr_class	libshorttext/classifier/learner/liblinear/linear.cpp	/^		INT64 nr_class;$/;"	m	class:Solver_MCSVM_CS	file:
+nr_class	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 nr_class;		\/* number of classes *\/$/;"	m	struct:model
+nr_feature	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 nr_feature;$/;"	m	struct:model
+nr_fold	libshorttext/classifier/learner/liblinear/matlab/train.c	/^INT64 nr_fold;$/;"	v
+nr_fold	libshorttext/classifier/learner/liblinear/train.c	/^INT64 nr_fold;$/;"	v
+nr_local_worker	libshorttext/classifier/grid.py	/^nr_local_worker = 1$/;"	v
+nr_weight	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 nr_weight;$/;"	m	struct:parameter
+options	libshorttext/classifier/grid.py	/^	options = sys.argv[1:-1]$/;"	v
+p	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double p;$/;"	m	class:l2r_l2_svr_fun	file:
+p	libshorttext/classifier/learner/liblinear/linear.h	/^	double p;$/;"	m	struct:parameter
+param	libshorttext/classifier/learner/liblinear/linear.h	/^	struct parameter param;$/;"	m	struct:model	typeref:struct:model::parameter
+param	libshorttext/classifier/learner/liblinear/matlab/train.c	/^struct parameter param;		\/\/ set by parse_command_line$/;"	v	typeref:struct:parameter
+param	libshorttext/classifier/learner/liblinear/train.c	/^struct parameter param;$/;"	v	typeref:struct:parameter
+parameter	libshorttext/classifier/learner/liblinear/linear.h	/^struct parameter$/;"	s
+parameter	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^class parameter(Structure):$/;"	c
+parse_command_line	libshorttext/classifier/learner/liblinear/matlab/train.c	/^INT64 parse_command_line(INT64 nrhs, const mxArray *prhs[], char *model_file_name)$/;"	f
+parse_command_line	libshorttext/classifier/learner/liblinear/train.c	/^void parse_command_line(INT64 argc, char **argv, char *input_file_name, char *model_file_name)$/;"	f
+parse_option	libshorttext/converter/converter_impl.py	/^	def parse_option(self, option):$/;"	m	class:FeatureGenerator
+parse_option	libshorttext/converter/converter_impl.py	/^	def parse_option(self, option):$/;"	m	class:TextPreprocessor
+parse_options	libshorttext/classifier/grid.py	/^	def parse_options(self, options):$/;"	m	class:GridOption
+parse_options	libshorttext/classifier/learner/learner_impl.py	/^	def parse_options(self, learner_opts, liblinear_opts):$/;"	m	class:LearnerParameter
+parse_options	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def parse_options(self, options):$/;"	m	class:parameter
+permute_sequence	libshorttext/classifier/grid.py	/^	def permute_sequence(seq):$/;"	f	function:calculate_jobs
+predict	libshorttext/classifier/learner/learner_impl.py	/^def predict(data_file_name, m, liblinear_opts=""):$/;"	f
+predict	libshorttext/classifier/learner/liblinear/linear.cpp	/^double predict(const model *model_, const feature_node *x)$/;"	f
+predict	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def predict(y, x, m, options=""):$/;"	f
+predict_one	libshorttext/classifier/learner/learner_impl.py	/^def predict_one(xi, m):$/;"	f
+predict_probability	libshorttext/classifier/learner/liblinear/linear.cpp	/^double predict_probability(const struct model *model_, const struct feature_node *x, double* prob_estimates)$/;"	f
+predict_result	demo/demo.py	/^    predict_result = InstanceSet('predict_result')$/;"	v
+predict_single_text	libshorttext/classifier/classifier_impl.py	/^def predict_single_text(text, text_model, predict_arguments = '', extra_svm_feats = []):$/;"	f
+predict_text	libshorttext/classifier/classifier_impl.py	/^def predict_text(text_src, text_model, svm_file=None, predict_arguments='', extra_svm_files = []):$/;"	f
+predict_values	libshorttext/classifier/learner/liblinear/linear.cpp	/^double predict_values(const struct model *model_, const struct feature_node *x, double *dec_values)$/;"	f
+preprocess	libshorttext/converter/converter_impl.py	/^	def preprocess(self, text):$/;"	m	class:TextPreprocessor
+print_debug	libshorttext/classifier/learner/learner_impl.py	/^def print_debug(src):$/;"	f
+print_null	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^int print_null(const char *s,...) {}$/;"	f
+print_null	libshorttext/classifier/learner/liblinear/matlab/train.c	/^void print_null(const char *s) {}$/;"	f
+print_null	libshorttext/classifier/learner/liblinear/predict.c	/^int print_null(const char *s,...) {return 0;}$/;"	f
+print_null	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^def print_null(s): $/;"	f
+print_null	libshorttext/classifier/learner/liblinear/train.c	/^void print_null(const char *s) {}$/;"	f
+print_string_matlab	libshorttext/classifier/learner/liblinear/matlab/train.c	/^void print_string_matlab(const char *s) {mexPrintf(s);}$/;"	f
+print_string_stdout	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void print_string_stdout(const char *s)$/;"	f	file:
+prob	libshorttext/classifier/learner/liblinear/linear.cpp	/^		const problem *prob;$/;"	m	class:Solver_MCSVM_CS	file:
+prob	libshorttext/classifier/learner/liblinear/linear.cpp	/^	const problem *prob;$/;"	m	class:l2r_l2_svc_fun	file:
+prob	libshorttext/classifier/learner/liblinear/linear.cpp	/^	const problem *prob;$/;"	m	class:l2r_lr_fun	file:
+prob	libshorttext/classifier/learner/liblinear/matlab/train.c	/^struct problem prob;		\/\/ set by read_problem$/;"	v	typeref:struct:problem
+prob	libshorttext/classifier/learner/liblinear/train.c	/^struct problem prob;$/;"	v	typeref:struct:problem
+prob	libshorttext/classifier/learner/util.c	/^	struct problem prob;$/;"	m	struct:__anon1	typeref:struct:__anon1::problem	file:
+problem	libshorttext/classifier/learner/liblinear/linear.h	/^struct problem$/;"	s
+problem	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^class problem(Structure):$/;"	c
+r	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	m	struct:__anon4
+r	libshorttext/classifier/learner/liblinear/blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	m	struct:__anon3
+r	libshorttext/converter/stemmer/porter.c	/^static void r(struct stemmer * z, char * s) { if (m(z) > 0) setto(z, s); }$/;"	f	file:
+range_f	libshorttext/classifier/grid.py	/^	def range_f(begin,end,step):$/;"	f	function:calculate_jobs
+read_SVMProblem	libshorttext/classifier/learner/learner_impl.py	/^def read_SVMProblem(src):$/;"	f
+read_problem	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^void read_problem(const char *filename, mxArray *plhs[])$/;"	f
+read_problem	libshorttext/classifier/learner/liblinear/train.c	/^void read_problem(const char *filename)$/;"	f
+read_problem	libshorttext/classifier/learner/util.c	/^SVMProblem read_problem(const char *filename, double bias, INT64 *error_code)$/;"	f
+read_problem_sparse	libshorttext/classifier/learner/liblinear/matlab/train.c	/^INT64 read_problem_sparse(const mxArray *label_vec, const mxArray *instance_mat)$/;"	f
+read_sparse_instance	libshorttext/classifier/learner/liblinear/matlab/predict.c	/^void read_sparse_instance(const mxArray *prhs, INT64 index, struct feature_node *x, INT64 feature_number, double bias)$/;"	f
+readline	libshorttext/classifier/learner/liblinear/matlab/libsvmread.c	/^static char* readline(FILE *input)$/;"	f	file:
+readline	libshorttext/classifier/learner/liblinear/predict.c	/^static char* readline(FILE *input)$/;"	f	file:
+readline	libshorttext/classifier/learner/liblinear/train.c	/^static char* readline(FILE *input)$/;"	f	file:
+readline	libshorttext/classifier/learner/util.c	/^static char* readline(FILE *input)$/;"	f	file:
+redraw	libshorttext/classifier/grid.py	/^def redraw(db,best_param,gnuplot,options,tofile=False):$/;"	f
+rename	libshorttext/converter/converter_impl.py	/^	def rename(self, old_label, new_label):$/;"	m	class:ClassMapping
+reverse	libshorttext/analyzer/selector.py	/^def reverse(insts):$/;"	f
+run	libshorttext/classifier/grid.py	/^	def run(self):$/;"	m	class:TelnetWorker
+run	libshorttext/classifier/grid.py	/^	def run(self):$/;"	m	class:Worker
+run_one	libshorttext/classifier/grid.py	/^	def run_one(self,c,g):$/;"	m	class:LocalWorker
+run_one	libshorttext/classifier/grid.py	/^	def run_one(self,c,g):$/;"	m	class:SSHWorker
+run_one	libshorttext/classifier/grid.py	/^	def run_one(self,c,g):$/;"	m	class:TelnetWorker
+s	libshorttext/converter/stemmer/porter.c	/^static char * s;         \/* buffer for words tobe stemmed *\/$/;"	v	file:
+save	libshorttext/classifier/classifier_impl.py	/^	def save(self, file_name, analyzable = False, fmt = '.16g'):$/;"	m	class:PredictionResult
+save	libshorttext/classifier/classifier_impl.py	/^	def save(self, model_name, force=False):$/;"	m	class:TextModel
+save	libshorttext/classifier/learner/learner_impl.py	/^	def save(self, model_dir, force=False):$/;"	m	class:LearnerModel
+save	libshorttext/converter/converter_impl.py	/^	def save(self, dest_dir):$/;"	m	class:Text2svmConverter
+save	libshorttext/converter/converter_impl.py	/^	def save(self, dest_file):$/;"	m	class:ClassMapping
+save	libshorttext/converter/converter_impl.py	/^	def save(self, dest_file):$/;"	m	class:FeatureGenerator
+save	libshorttext/converter/converter_impl.py	/^	def save(self, dest_file):$/;"	m	class:TextPreprocessor
+save_model	libshorttext/classifier/learner/liblinear/linear.cpp	/^INT64 save_model(const char *model_file_name, const struct model *model_)$/;"	f
+save_model	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def save_model(model_file_name, model):$/;"	f
+schar	libshorttext/classifier/learner/liblinear/linear.cpp	/^typedef signed char schar;$/;"	t	file:
+select	libshorttext/analyzer/analyzer_impl.py	/^	def select(self, *sel_funcs):$/;"	m	class:InstanceSet
+selectorize	libshorttext/analyzer/selector.py	/^def selectorize(option = 'general', comment = None):$/;"	f
+set_bias	libshorttext/classifier/learner/learner_impl.py	/^	def set_bias(self, bias):$/;"	m	class:LearnerProblem
+set_bias	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def set_bias(self, bias):$/;"	m	class:problem
+set_print_string	libshorttext/classifier/learner/liblinear/tron.cpp	/^void TRON::set_print_string(void (*print_string) (const char *buf))$/;"	f	class:TRON
+set_print_string_function	libshorttext/classifier/learner/liblinear/linear.cpp	/^void set_print_string_function(void (*print_func)(const char*))$/;"	f
+set_to_default_values	libshorttext/classifier/learner/learner_impl.py	/^	def set_to_default_values(self):$/;"	m	class:LearnerParameter
+set_to_default_values	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^	def set_to_default_values(self):$/;"	m	class:parameter
+setto	libshorttext/converter/stemmer/porter.c	/^static void setto(struct stemmer * z, char * s)$/;"	f	file:
+sizeI	libshorttext/classifier/learner/liblinear/linear.cpp	/^	INT64 sizeI;$/;"	m	class:l2r_l2_svc_fun	file:
+solve_l1r_l2_svc	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void solve_l1r_l2_svc($/;"	f	file:
+solve_l1r_lr	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void solve_l1r_lr($/;"	f	file:
+solve_l2r_l1l2_svc	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void solve_l2r_l1l2_svc($/;"	f	file:
+solve_l2r_l1l2_svr	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void solve_l2r_l1l2_svr($/;"	f	file:
+solve_l2r_lr_dual	libshorttext/classifier/learner/liblinear/linear.cpp	/^void solve_l2r_lr_dual(const problem *prob, double *w, double eps, double Cp, double Cn)$/;"	f
+solve_sub_problem	libshorttext/classifier/learner/liblinear/linear.cpp	/^void Solver_MCSVM_CS::solve_sub_problem(double A_i, INT64 yi, double C_yi, INT64 active_i, double *alpha_new)$/;"	f	class:Solver_MCSVM_CS
+solver_type	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 solver_type;$/;"	m	struct:parameter
+solver_type_table	libshorttext/classifier/learner/liblinear/linear.cpp	/^static const char *solver_type_table[]=$/;"	v	file:
+sort_by_dec	libshorttext/analyzer/selector.py	/^def sort_by_dec(inst):$/;"	f
+ssh_workers	libshorttext/classifier/grid.py	/^ssh_workers = []$/;"	v
+stem	libshorttext/converter/stemmer/porter.c	/^extern int stem(struct stemmer * z, char * b, int k)$/;"	f
+stem	libshorttext/converter/stemmer/porter.py	/^def stem(word):$/;"	f
+stemfile	libshorttext/converter/stemmer/porter.c	/^void stemfile(struct stemmer * z, FILE * f)$/;"	f
+stemmer	libshorttext/converter/stemmer/porter.c	/^struct stemmer {$/;"	s	file:
+stemmer	libshorttext/converter/stemmer/porter.py	/^stemmer = CDLL(os.path.join(os.path.dirname(__file__),'.\/porter.so.1'))$/;"	v
+step1ab	libshorttext/converter/stemmer/porter.c	/^static void step1ab(struct stemmer * z)$/;"	f	file:
+step1c	libshorttext/converter/stemmer/porter.c	/^static void step1c(struct stemmer * z)$/;"	f	file:
+step2	libshorttext/converter/stemmer/porter.c	/^static void step2(struct stemmer * z) { switch (z->b[z->k-1])$/;"	f	file:
+step3	libshorttext/converter/stemmer/porter.c	/^static void step3(struct stemmer * z) { switch (z->b[z->k])$/;"	f	file:
+step4	libshorttext/converter/stemmer/porter.c	/^static void step4(struct stemmer * z)$/;"	f	file:
+step5	libshorttext/converter/stemmer/porter.c	/^static void step5(struct stemmer * z)$/;"	f	file:
+subXTv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svc_fun::subXTv(double *v, double *XTv)$/;"	f	class:l2r_l2_svc_fun
+subXv	libshorttext/classifier/learner/liblinear/linear.cpp	/^void l2r_l2_svc_fun::subXv(double *v, double *Xv)$/;"	f	class:l2r_l2_svc_fun
+subset	libshorttext/analyzer/selector.py	/^def subset(amount, method = 'top'):$/;"	f
+svm_read_problem	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def svm_read_problem(data_file_name):$/;"	f
+swap	libshorttext/classifier/learner/liblinear/linear.cpp	/^template <class T> static inline void swap(T& x, T& y) { T t=x; x=y; y=t; }$/;"	f	file:
+telnet_workers	libshorttext/classifier/grid.py	/^telnet_workers = []$/;"	v
+toClassName	libshorttext/converter/converter_impl.py	/^	def toClassName(self, idx):$/;"	m	class:ClassMapping
+toIdx	libshorttext/converter/converter_impl.py	/^	def toIdx(self, class_name):$/;"	m	class:ClassMapping
+toPyModel	libshorttext/classifier/learner/liblinear/python/liblinear.py	/^def toPyModel(model_ptr):$/;"	f
+toSVM	libshorttext/converter/converter_impl.py	/^	def toSVM(self, text):$/;"	m	class:FeatureGenerator
+toSVM	libshorttext/converter/converter_impl.py	/^	def toSVM(self, text, class_name = None, extra_svm_feats = []):$/;"	m	class:Text2svmConverter
+train	libshorttext/classifier/learner/learner_impl.py	/^def train(data_file_name, learner_opts="", liblinear_opts=""):$/;"	f
+train	libshorttext/classifier/learner/liblinear/linear.cpp	/^model* train(const problem *prob, const parameter *param)$/;"	f
+train	libshorttext/classifier/learner/liblinear/python/liblinearutil.py	/^def train(arg1, arg2=None, arg3=None):$/;"	f
+train_converted_text	libshorttext/classifier/classifier_impl.py	/^def train_converted_text(svm_file, text_converter, grid_arguments = '0', feature_arguments = '', train_arguments = ''):$/;"	f
+train_one	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void train_one(const problem *prob, const parameter *param, double *w, double Cp, double Cn)$/;"	f	file:
+train_text	libshorttext/classifier/classifier_impl.py	/^def train_text(text_src, svm_file = None, converter_arguments = '', grid_arguments = '0', feature_arguments = '', train_arguments = '', extra_svm_files = []):$/;"	f
+transpose	libshorttext/classifier/learner/liblinear/linear.cpp	/^static void transpose(const problem *prob, feature_node **x_space_ret, problem *prob_col)$/;"	f	file:
+trcg	libshorttext/classifier/learner/liblinear/tron.cpp	/^INT64 TRON::trcg(double delta, double *g, double *s, double *r)$/;"	f	class:TRON
+trim	libshorttext/converter/stemmer/porter.c	/^int trim(char* src){$/;"	f
+tron	libshorttext/classifier/learner/liblinear/tron.cpp	/^void TRON::tron(double *w)$/;"	f	class:TRON
+tron_print_string	libshorttext/classifier/learner/liblinear/tron.h	/^	void (*tron_print_string)(const char *buf);$/;"	m	class:TRON
+unicode	libshorttext/classifier/learner/learner_impl.py	/^	def unicode(string, setting):$/;"	f
+unicode	libshorttext/converter/converter_impl.py	/^	def unicode(string, setting):$/;"	f
+unigram	libshorttext/converter/converter_impl.py	/^	def unigram(self, text):$/;"	m	class:FeatureGenerator
+update_param	libshorttext/classifier/grid.py	/^	def update_param(c,g,rate,best_c,best_g,best_rate,worker,resumed):$/;"	f	function:find_parameters
+util	libshorttext/classifier/learner/learner_impl.py	/^util = CDLL(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'util.so.1'))$/;"	v
+value	libshorttext/classifier/learner/liblinear/linear.h	/^	double value;$/;"	m	struct:feature_node
+vowelinstem	libshorttext/converter/stemmer/porter.c	/^static int vowelinstem(struct stemmer * z)$/;"	f	file:
+w	libshorttext/classifier/learner/liblinear/linear.h	/^	double *w;$/;"	m	struct:model
+w_size	libshorttext/classifier/learner/liblinear/linear.cpp	/^		INT64 w_size, l;$/;"	m	class:Solver_MCSVM_CS	file:
+weight	libshorttext/classifier/learner/liblinear/linear.h	/^	double* weight;$/;"	m	struct:parameter
+weight_label	libshorttext/classifier/learner/liblinear/linear.h	/^	INT64 *weight_label;$/;"	m	struct:parameter
+with_labels	libshorttext/analyzer/selector.py	/^def with_labels(labels, target = 'both'):$/;"	f
+write	libshorttext/analyzer/analyzer_impl.py	/^def write(string, output = None):$/;"	f
+wrong	libshorttext/analyzer/selector.py	/^def wrong(inst):$/;"	f
+x	libshorttext/classifier/learner/liblinear/linear.h	/^	struct feature_node **x;$/;"	m	struct:problem	typeref:struct:problem::feature_node
+x	libshorttext/classifier/learner/liblinear/predict.c	/^struct feature_node *x;$/;"	v	typeref:struct:feature_node
+x_space	libshorttext/classifier/learner/liblinear/matlab/train.c	/^struct feature_node *x_space;$/;"	v	typeref:struct:feature_node
+x_space	libshorttext/classifier/learner/liblinear/train.c	/^struct feature_node *x_space;$/;"	v	typeref:struct:feature_node
+x_space	libshorttext/classifier/learner/util.c	/^	struct feature_node* x_space;$/;"	m	struct:__anon1	typeref:struct:__anon1::feature_node	file:
+xrange	libshorttext/analyzer/analyzer_impl.py	/^	xrange = range$/;"	v
+xrange	libshorttext/classifier/learner/learner_impl.py	/^	xrange = range$/;"	v
+xrange	libshorttext/converter/converter_impl.py	/^	xrange = range$/;"	v
+y	libshorttext/classifier/learner/liblinear/linear.h	/^	double *y;$/;"	m	struct:problem
+z	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *z;$/;"	m	class:l2r_l2_svc_fun	file:
+z	libshorttext/classifier/learner/liblinear/linear.cpp	/^	double *z;$/;"	m	class:l2r_lr_fun	file:
+~Solver_MCSVM_CS	libshorttext/classifier/learner/liblinear/linear.cpp	/^Solver_MCSVM_CS::~Solver_MCSVM_CS()$/;"	f	class:Solver_MCSVM_CS
+~TRON	libshorttext/classifier/learner/liblinear/tron.cpp	/^TRON::~TRON()$/;"	f	class:TRON
+~function	libshorttext/classifier/learner/liblinear/tron.h	/^	virtual ~function(void){}$/;"	f	class:function
+~l2r_l2_svc_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^l2r_l2_svc_fun::~l2r_l2_svc_fun()$/;"	f	class:l2r_l2_svc_fun
+~l2r_lr_fun	libshorttext/classifier/learner/liblinear/linear.cpp	/^l2r_lr_fun::~l2r_lr_fun()$/;"	f	class:l2r_lr_fun
