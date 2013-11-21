@@ -215,8 +215,8 @@ class TextPreprocessor(object):
 		self.tokenizer = self.default_tokenizer
 		return self
 
-	@staticmethod
-	def default_stoplist():
+	
+# 	def default_stoplist():
 		"""
 		Return a default stopword list provided by LibShortText.
 
@@ -236,17 +236,27 @@ class TextPreprocessor(object):
 
 		# This function only parses the default stop word list file.
 		# *src* should not be an argument.
+# 		src = ""
+# 		if not src:
+# 			src = '{0}/stop-words/stoplist-nsp.regex'.format(os.path.dirname(os.path.abspath(__file__)))
+# 		srcfile = open(src)
+# 		stoplist = set(map(chr, range(ord('a'),ord('z')+1)))#['a', ... 'z'])
+# 		srcfile.readline()
+# 		srcfile.readline()
+# 		for line in srcfile:
+# 			stoplist.add(line[5:-4].lower().replace(']',''))
+# 		return stoplist
+	@staticmethod
+	def default_stoplist():
 		src = ""
 		if not src:
-			src = '{0}/stop-words/stoplist-nsp.regex'.format(os.path.dirname(os.path.abspath(__file__)))
+			src = '{0}/stop-words/stoplist-nsp-ZN.regex'.format(os.path.dirname(os.path.abspath(__file__)))
 		srcfile = open(src)
 		stoplist = set(map(chr, range(ord('a'),ord('z')+1)))
-		srcfile.readline()
-		srcfile.readline()
 		for line in srcfile:
-			stoplist.add(line[5:-4].lower().replace(']',''))
+			tmpline = line.strip()
+			stoplist.add(unicodedata.normalize('NFD', unicode(tmpline, 'utf-8')).lower())
 		return stoplist
-
 	# check if a better and more efficient way to tokenize text
 	# http://stackoverflow.com/questions/9455510/remove-all-non-ascii-from-string
 	@staticmethod
@@ -258,16 +268,22 @@ class TextPreprocessor(object):
 		It splits a text to tokens by whitespace characters, and
 		normalizes tokens using `NFD (normalization form D) <http://docs.python.org/2/library/unicodedata.html#unicodedata.normalize>`_.
 		"""
+		"""
 		def foo(c):
 			if ord(c)>127: return ''
 			if c.isdigit() or c.isalpha(): return c
 			else : return ' '
 		"""
+		"""
 		filters non-chinese characters
 		"""
 		def foo(uchar):
-			 if uchar >= u'\u4e00' and uchar<=u'\u9fa5': return uchar
-			 else: return ' '
+			if uchar >= u'\u4e00' and uchar <= u'\u9fa5':#HanZi
+				return uchar;
+			elif uchar >= u'\u0000' and uchar <= u'\u007f':#Latin and Number
+				return uchar;
+			else:
+				return ' ';
 		text = unicodedata.normalize('NFD', unicode(text, 'utf-8')).lower()
 		text = ''.join(map(foo,text))
 		text = re.sub(r'([a-z])([0-9])', r'\1 \2', text)
