@@ -5,6 +5,7 @@ __all__ = ["TextPreprocessor", "FeatureGenerator", "ClassMapping", "Text2svmConv
 import sys, os
 import unicodedata, re
 from collections import defaultdict
+from ..wordseg import *
 
 if sys.version_info[0] >= 3:
 	xrange = range
@@ -161,7 +162,13 @@ class TextPreprocessor(object):
 			i+=2
 		stoplist = set(tokstemmer(x) for x in stoplist)
 		stemmer = lambda text: map(tokstemmer, text)
-		stopword_remover = lambda text: filter(lambda tok: tok not in stoplist, text)
+		def parse_option_notin(x):
+			if x not in stoplist:
+				return x
+			else:
+				print x
+		stopword_remover = lambda text: filter(parse_option_notin, text)
+# 		stopword_remover = lambda text: filter(lambda tok: tok not in stoplist, text)
 		return stemmer, stopword_remover
 
 	def get_idx2tok(self, idx):
@@ -215,7 +222,7 @@ class TextPreprocessor(object):
 		self.tokenizer = self.default_tokenizer
 		return self
 
-	
+
 # 	def default_stoplist():
 		"""
 		Return a default stopword list provided by LibShortText.
@@ -255,7 +262,8 @@ class TextPreprocessor(object):
 		stoplist = set(map(chr, range(ord('a'),ord('z')+1)))
 		for line in srcfile:
 			tmpline = line.strip()
-			stoplist.add(unicodedata.normalize('NFD', unicode(tmpline, 'utf-8')).lower())
+			stoplist.add(tmpline)
+# 			stoplist.add(unicodedata.normalize('NFD', unicode(tmpline, 'utf-8')).lower())
 		return stoplist
 	# check if a better and more efficient way to tokenize text
 	# http://stackoverflow.com/questions/9455510/remove-all-non-ascii-from-string
@@ -300,7 +308,11 @@ class TextPreprocessor(object):
 		token-index mapping for unseen tokens; otherwise, this function
 		ignores unseen tokens.
 		"""
-		text = self.tokenizer(text)
+		wsg = wordseg()
+		wsg.load_dict("resource/dict.txt")
+		text.strip()
+		text = wsg.segment(text, 1, 0)
+# 		text = self.tokenizer(text)
 		text = self.stemmer(text)
 		text = self.stopword_remover(text)
 		ret = []

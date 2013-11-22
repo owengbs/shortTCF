@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import sys
 sys.path+=['.']
-import wordseg
-s=wordseg.wordseg()
+import wordseg_impl
+s=wordseg_impl.wordseg()
 s.load_dict("data/dict.txt")
 for l in open("data/raw.txt"):
 	l=l.strip()

@@ -36,7 +36,6 @@ if __name__ == '__main__':
 	output = None
 	converter_arguments = '-stopword 0 -stemming 0 -feature 1'
 	extra_svm_files = []
-
 	i = 1
 	while(True):
 		if i >= len(argv): break

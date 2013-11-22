@@ -7,26 +7,26 @@
 
 
 from sys import version_info
-if version_info >= (2,6,0):
-    def swig_import_helper():
-        from os.path import dirname
-        import imp
-        fp = None
+# if version_info >= (2,6,0):
+def swig_import_helper():
+    from os.path import dirname
+    import imp
+    fp = None
+    try:
+        fp, pathname, description = imp.find_module('_wordseg', [dirname(__file__)])
+    except ImportError:
+        import _wordseg
+        return _wordseg
+    if fp is not None:
         try:
-            fp, pathname, description = imp.find_module('_wordseg', [dirname(__file__)])
-        except ImportError:
-            import _wordseg
-            return _wordseg
-        if fp is not None:
-            try:
-                _mod = imp.load_module('_wordseg', fp, pathname, description)
-            finally:
-                fp.close()
-            return _mod
-    _wordseg = swig_import_helper()
-    del swig_import_helper
-else:
-    import _wordseg
+            _mod = imp.load_module('_wordseg', fp, pathname, description)
+        finally:
+            fp.close()
+        return _mod
+_wordseg = swig_import_helper()
+del swig_import_helper
+# else:
+#     import _wordseg
 del version_info
 def _swig_setattr_nondynamic(self,class_type,name,value,static=1):
     if (name == "thisown"): return self.this.own(value)
