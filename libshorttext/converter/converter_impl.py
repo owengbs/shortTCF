@@ -570,7 +570,7 @@ class ClassMapping(object):
 			raise TypeError("new_label should be a str")
 
 		if isinstance(old_label, int):
-			old_label = toClassName(old_label)
+			old_label = self.toClassName(old_label)
 		if isinstance(old_label, str):
 			if old_label not in self.class2idx:
 				raise ValueError('class {0} does not exist'.format(old_label))

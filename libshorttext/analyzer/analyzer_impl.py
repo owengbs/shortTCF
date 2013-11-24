@@ -135,10 +135,10 @@ class InstanceSet:
 				break
 			if idx == sorted_insts[i].idx:
 				try:
-					sorted_insts[i].text = line.split('\t',1)[1].strip()
+					sorted_insts[i].text = line.split(',',1)[1].strip()
 				except:
 					sorted_insts[i].text = EMPTY_MESSAGE
-
+				
 				sorted_insts[i].extra_svm_feats = [None] * nr_extra_svm_feats
 				for j, extra_svm_feat in enumerate(extra_svm_feats):
 					try:
