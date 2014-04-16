@@ -9,9 +9,9 @@ from libshorttext.converter import Text2svmConverter
 def exit_with_help():
 	stderr.write("""Usage: text-train.py [options] training_file [model]
 
-options: 
+options:
     -P {0|1|2|3|4|5|6|7|converter_directory}
-        Preprocessor options. The options include stopwrod removal, 
+        Preprocessor options. The options include stopwrod removal,
         stemming, and bigram. (default 1)
         0   no stopword removal, no stemming, unigram
         1   no stopword removal, no stemming, bigram
@@ -23,7 +23,7 @@ options:
         7   stopword removal, stemming, bigram
         If a preprocssor directory is given instead, then it is assumed
         that the training data is already in LIBSVM format. The preprocessor
-        will be included in the model for test. 
+        will be included in the model for test.
     -G {0|1}
         Grid search for the penalty parameter in linear classifiers. (default 0)
         0   disable grid search (faster)
@@ -31,7 +31,7 @@ options:
     -F {0|1|2|3}
         Feature representation. (default 0)
         0   binary feature
-        1   word count 
+        1   word count
         2   term frequency
         3   TF-IDF (term frequency + IDF)
     -N {0|1}
@@ -44,31 +44,31 @@ options:
         2   L2-loss support vector classification
         3   logistic regression
     -A extra_svm_file
-        Append extra libsvm-format data. This parameter can be applied many 
+        Append extra libsvm-format data. This parameter can be applied many
         times if more than one extra svm-format data set need to be appended.
     -f
         Overwrite the existing model file.
 Examples:
-    text-train.py -L 3 -F 1 -N 1 raw_text_file model_file 
+    text-train.py -L 3 -F 1 -N 1 raw_text_file model_file
     text-train.py -P text2svm_converter -L 1 converted_svm_file
 """)
 	exit(1)
 
 if __name__ == '__main__':
-	
+
 	if len(argv) < 2:
 		exit_with_help()
 
 	text_converter      = None
 	converter_arguments = ''
 	grid_arguments      = '0'
-	feature_arguments   = '' 
+	feature_arguments   = ''
 	liblinear_arguments = '' # default is -s 4
 	data                = None
 	force               = False
 	model_path          = None
 	extra_svm_files     = []
-
+	svm_file = None
 	i = 1
 	while(True):
 		if i >= len(argv): break
@@ -92,7 +92,7 @@ if __name__ == '__main__':
 		if i+1 >= len(argv):
 			stderr.write('Error: Invalid usage of option ' + argv[i] + '\n')
 			exit_with_help()
-		
+
 		value = argv[i+1]
 		if argv[i] == '-P':
 			if value in ['0', '1', '2', '3', '4', '5', '6', '7']:
@@ -128,12 +128,12 @@ if __name__ == '__main__':
 				stderr.write('Error: Invalid usage of option -F.\n')
 				exit_with_help()
 		elif argv[i] == '-N':
-			if value not in ['0', '1']: 
+			if value not in ['0', '1']:
 				stderr.write('Error: Invalid usage of option -N.\n')
 				exit_with_help()
 			feature_arguments += ' -N ' + value
 		elif argv[i] == '-L':
-			if value == '0': 
+			if value == '0':
 				liblinear_arguments = '-s 4'
 			elif value == '1':
 				liblinear_arguments = '-s 3'
@@ -148,6 +148,8 @@ if __name__ == '__main__':
 				exit_with_help()
 		elif argv[i] == '-A':
 			extra_svm_files += [value]
+		elif argv[i] == '-M':
+			svm_file = value
 		elif argv[i] == '-x':
 			if value.lower() == 'grid':
 				system(path.dirname(LIBLINEAR_HOME) + '/../grid.py')
@@ -160,21 +162,23 @@ if __name__ == '__main__':
 		else:
 			stderr.write('Error: No option ' + argv[i] + '\n')
 			exit_with_help()
-		
+
 		i += 2
 
 
-	if not data:
+	if not data and not svm_file:
 		stderr.write('Error: Training data path is not given.\n')
 		exit_with_help()
-
-	model_path = model_path or path.split(data)[1] + '.model'
+	if data:
+		model_path = model_path or path.split(data)[1] + '.model'
+	else:
+		model_path = model_path or path.split(svm_file)[1] + '.model'
 	if path.exists(model_path) and not force:
 		stderr.write('{0} already exists. Use -f to overwrite the existing file.\n'.format(model_path))
 		exit(1)
-		
+
 	if not text_converter:
-		m, svm_file = train_text(data, converter_arguments=converter_arguments, grid_arguments=grid_arguments, feature_arguments=feature_arguments, train_arguments=liblinear_arguments, extra_svm_files = extra_svm_files)
+		m, svm_file = train_text(data, svm_file = svm_file, converter_arguments=converter_arguments, grid_arguments=grid_arguments, feature_arguments=feature_arguments, train_arguments=liblinear_arguments, extra_svm_files = extra_svm_files)
 		m.save(model_path, force)
 	else:
 		if len(extra_svm_files) > 0:

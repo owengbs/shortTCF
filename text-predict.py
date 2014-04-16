@@ -14,13 +14,13 @@ options:
         Overwrite the existing output file.
     -a {0|1}
         Output options. (default 1)
-        0   Store only predicted labels. The information is NOT sufficient 
-            for interactive analysis. Use this option if you would like to get 
+        0   Store only predicted labels. The information is NOT sufficient
+            for interactive analysis. Use this option if you would like to get
             only accuracy.
-        1   More information is stored. The output provides information for 
+        1   More information is stored. The output provides information for
             interactive analysis, but the size of output can become much larger.
     -A extra_svm_file
-        Append extra libsvm-format data. This parameter can be applied many 
+        Append extra libsvm-format data. This parameter can be applied many
         times if more than one extra svm-format data set need to be appended.
 """)
 	exit(1)
@@ -38,13 +38,14 @@ if __name__ == '__main__':
 	force               = False
 	analyzable          = True
 	extra_svm_files     = []
-	
+
 	i = 1
+	svm_file = None
 	while(True):
 		if i >= len(argv): break
 
 		if not argv[i].startswith('-'):
-			if data is None:
+			if data is None and svm_file is None:
 				data = argv[i]
 			elif model is None:
 				model = argv[i]
@@ -60,11 +61,11 @@ if __name__ == '__main__':
 			force = True
 			i += 1
 			continue
-		
+
 		if i+1 >= len(argv):
 			stderr.write('Error: Invalid usage of option ' + argv[i] + '\n')
 			exit_with_help()
-		
+
 		value = argv[i+1]
 		if argv[i] == '-a':
 			if value == '0':
@@ -76,10 +77,12 @@ if __name__ == '__main__':
 				exit_with_help()
 		elif argv[i] == '-A':
 			extra_svm_files += [value]
+		elif argv[i] == '-M':
+			svm_file = value
 		else:
 			stderr.write('Error: No option ' + argv[i] + '\n')
 			exit_with_help()
-		
+
 		i += 2
 
 	if output is None:
@@ -92,10 +95,10 @@ if __name__ == '__main__':
 
 	m = TextModel()
 	m.load(model)
-	predict_result = predict_text(data, m, svm_file=None, predict_arguments = liblinear_arguments, extra_svm_files = extra_svm_files)
+	predict_result = predict_text(data, m, svm_file, predict_arguments = liblinear_arguments, extra_svm_files = extra_svm_files)
 
 	print("Accuracy = {0:.4f}% ({1}/{2})".format(
-		predict_result.get_accuracy()*100, 
+		predict_result.get_accuracy()*100,
 		sum(ty == py for ty, py in zip(predict_result.true_y, predict_result.predicted_y)),
 		len(predict_result.true_y)))
 
